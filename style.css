@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* google font */
+.font-raleway{
+  font-family: "Raleway", sans-serif;
+ 
+}
+.font-inter{
+  font-family: "Inter", sans-serif;
+}
+.primary-color{
+    color: #1DD100;
+
+}
+
+.seat-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    row-gap: 20px;
+    column-gap: 10px ;
+}
+.set-btn{
+    background-color: #a7a7a72a;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seat-serial{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
